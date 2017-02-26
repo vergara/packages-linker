@@ -1,0 +1,15 @@
+{
+  "name": "packages-linker",
+  "version": "1.0.0",
+  "description": "Links modules in a project by scope.",
+  "main": "packages-linker.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Cristobal Vergara <cristobal.vergara.niedermayr@gmail.com>",
+  "license": "GPL-3.0",
+  "dependencies": {
+    "lodash": "^4.17.4",
+    "promise-denodeify": "^1.2.2"
+  }
+}
