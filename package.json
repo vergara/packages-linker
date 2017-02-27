@@ -1,6 +1,6 @@
 {
   "name": "packages-linker",
-  "version": "1.0.0",
+  "version": "1.0.4",
   "description": "Links modules in a project by scope.",
   "main": "packages-linker.js",
   "scripts": {
@@ -8,6 +8,28 @@
   },
   "author": "Cristobal Vergara <cristobal.vergara.niedermayr@gmail.com>",
   "license": "GPL-3.0",
+  "bin": {
+    "packages-linker": "packages-linker.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/vergara/packages-linker.git"
+  },
+  "bugs": {
+    "url": "https://github.com/vergara/packages-linker.git"
+  },
+  "homepage": "https://github.com/vergara/packages-linker.git",
+  "keywords": [
+    "npm",
+    "modules",
+    "packages",
+    "private npm",
+    "monorepo",
+    "monorepos",
+    "link",
+    "ide",
+    "development"
+  ],
   "dependencies": {
     "lodash": "^4.17.4",
     "promise-denodeify": "^1.2.2"

@@ -1,9 +1,16 @@
+#!/usr/bin/env node
+
 var findFoldersWithPackageJson = require('./find-folders-with-package-json');
 var findJsFiles = require('./find-js-files');
 var findScopesInFile = require('./find-scopes-in-file');
 var PkgDirsByPkgName = require('./pkg-dirs-by-pkg-name');
 var createLinks = require('./create-links.js');
 var _ = require('lodash');
+
+if (process.argv.length !== 4) {
+  console.error("Usage: packages-linker repository-root-folder @scope-of-packages");
+  process.exit(1);
+}
 
 var rootDir = process.argv[2];
 var scope = process.argv[3];
